@@ -6,4 +6,14 @@ def friends_in_trouble(j_angry, s_angry):
     return j_angry == s_angry
 
 
-2.  
+2.  Given a positive integer x. Your task is to check, if it is even or odd (Any number that gives zero as remainder when divided by 2 is an even number).
+
+
+def checkOddEven(x):
+    # code here
+    if x%2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+3. 
