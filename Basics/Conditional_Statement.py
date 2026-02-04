@@ -40,8 +40,45 @@ class Solution:
             return False
 
 
-5. 
+5. Given three numbers a, b, and c. You need to find which is the greatest of them all.
 
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a >= b and a >= c:
+    print(a)
+elif b >= c and b >= a:
+    print(b)
+else:
+    print(c)
+
+
+6. Given two numbers a and b. You need to perform basic mathematical operations on them. You will be provided an integer named as operator.
+
+If the operator equals to 1 add a and b, then print the result.
+If the operator equals to 2 subtract b from a, then print the result.
+If the operator equals to 3 multiply a and b, then print the result.
+If the operator equals to any other number, print "Invalid Input"(without quotes).
+Note: Do not add a new line at the end.
+
+
+    class Solution:
+    def calculate(self, a: int, b: int, operator: int) -> None:
+        #code here
+        if operator == 1:
+            print(a+b, end = "")
+        elif operator == 2:
+            print(b-a, end = "")
+        elif operator == 3:
+            print(a*b, end = "")
+        else:
+            print("Invalid Input", end = "")
+
+
+
+7.
+    
 
 
 
